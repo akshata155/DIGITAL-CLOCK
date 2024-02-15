@@ -1,0 +1,51 @@
+body{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/853/914/400/clocks-suits-men-time-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clock{
+    padding: 2em 3em;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: #222254;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    position: fixed;
+    margin-left: -49%;
+    width:150px;
+    height: 20px;
+    
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.time{
+    font-size: 6em;
+    margin:10%;
+    margin-top: 50%;
+    font-weight: bolder;
+}
