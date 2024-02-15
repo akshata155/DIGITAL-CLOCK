@@ -1,1 +1,1 @@
-# DIGITAL-CLOCK
+Elevate your website's style and functionality with our Digital Clock Project. Built using only HTML and CSS, it offers real-time updates, a modern design, and easy customization. Perfect for any website, it's responsive and adds a touch of sophistication to your online presence.
